@@ -1,0 +1,125 @@
+React:
+-React is a open-source library for building UI
+-It is not a framework
+-React-Web APPs
+-React Native-Native Mobile APPs
+-React is introduced and maintained by Facebook/Meta
+-React is Declarative
+-It is a component based UI Implementation
+-React will update and render components effectively
+-Html,Css,JavaScript & Es6/Es7
+-Fundamentals,HTTP,Routing,Redux,Utilities
+
+-2.2GHz
+-8 GB
+
+-Node JS
+-NPM (Node Package Manager)
+-Visual Studio Code
+-React Redux
+
+
+npx create-react-app myfirstproject
+cd myfirstproject
+npm start
+
+
+npx: NPM Package Runner
+
+PWA Ready
+-https://
+
+
+npm i -g n latest
+
+Components:
+--------------
+-Components are part of UI
+-components are building blocks of Any React APplications
+-In REact templates, app is the root component
+-Components are re-usable and nested one in another
+-Components can be created with an extension of *.js or *.jsx
+
+-In React there are 2 types of components:
+1.Functional Components: JavaScript
+2.Class Components: ES6/ES7
+
+Functional Components:(RFCE)
+-These are simply javascript functions
+-these are optionally recieve an object of properties: props
+-these will return HTML components: JSX
+
+index.js:
+
+index.html- root
+
+function sum(a,b)
+{
+	alert(a+b);
+}
+
+const sum=(a,b)=>
+{
+  alert(a+b);
+}
+
+2.Class Components:(RCE)
+-These are ES6/ES7 classes
+-class components also receive props & private internal state
+-State is a private memory, which will be maintained for the components
+
+Fn components vs Class Components:
+--------------------------------------
+simple functions       more feature rich
+absence of 'this'      require 'this' to access class props
+dumb components        stateful/smart components
+
+
+JSX:
+---
+-It stands for JavaScript XML
+-It is an extension to javascript language syntax
+-It looks like XML and code for components
+-JSX Tags also will support attributes similar to HTML
+	<img src="" height="" width="" alt=""/>
+-JSX can be transpiles/converts to pure javascript for browser understandability
+
+Props:
+------
+
+State:
+-----
+-state is a internal private memory which is immutable
+
+setState:
+---------
+constructor
+componentdidMount
+component
+
+
+De-Structuring Props & State:
+-----------------------------
+props: 25
+
+Event Bindings:
+----------------
+
+
+
+Parent:
+  msg()
+
+Child:
+  button
+
+
+Conditional Rendering
+List in React
+Styling using CSS
+Forms & Form Handling in React
+Life Cycle Hooks of React
+Fragments in React
+
+
+

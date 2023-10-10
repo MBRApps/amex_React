@@ -1,0 +1,154 @@
+Conditional Rendering:
+--------------------
+1.if-else
+isLoggedInn->
+
+&&
+
+Working with Arrys:
+-------------------
+map
+
+const courses=['C','C++','Java']
+
+courses.map(course=>
+<p>{course}</p>
+)
+
+for(var i=0;i<--
+
+emp-10,000
+mumbai-968
+const scores=[95,85,87,96,58]
+let sum=0
+let total= scores.filter().map((x,i,arr)=>
+sum+=x;
+[{arr.join(',')}]
+)
+
+npm install bootstrap
+npm i bootstrap
+
+CSS Styles:
+------------
+1.Styles
+2.Classes
+3.Modules
+
+font-size
+fontSize
+backgroundColor
+
+<table className="">
+
+<Table className="">
+<p id="p1">
+
+selector:
+class-name: .
+id: #p1
+p{
+
+}
+
+<p class="">
+<h1 class="">
+
+css: Online_>green
+obj.Online->orange
+
+
+Basic Form:
+----------
+required
+pattern
+
+LifeCycle Methods:
+------------------
+1.Mounting:
+	When an instance of component is being created and inserted into the DOM
+	Constructor()
+	static getDerivedStateFromProps()
+	render()
+	componentDidMount()
+2.Updating:
+	when a component is being re-rendred as a result of changes with its props/state
+	static getDerivedStateFromProps()
+	shouldComponentUpdate()
+	render()
+	getSnapshotBeforeUpdate()
+	ComponentDidUpdate()
+3.UnMounting:
+	When a component os being removed from the DOM
+	componentWillUnmount()
+4.Error Handling
+	when there is an error during rendering,executing lifecycle methods or in constructor
+	static getDerivedStateFromError()
+	componentDidCatch()
+
+
+1.Mounting:
+----------
+Constructor():
+	a special function that will get called evenever a new component is created
+	we can initialize the state
+	we can bind the event handlers
+
+
+static getDerivedStateFromProps(props,state):
+	When the state of the component depends on change
+	Set the state
+
+render():
+	This is the only required method
+	Read Props & state and return JSX
+	Child Components will render here(child component life cycle starts here)
+
+componentDidMount():
+	Invoked immediately after a component and its child components have been rendered to DOM.
+	Perform AJAX calls/API Calls
+	
+
+2.Updating:
+------------
+static getDerivedStateFromProps(props,state):
+	When the state of the component depends on change
+	Set the state
+
+shouldComponentUpdate(nextProps,nextState):
+	dictate whether component should re-render or not
+	performance optimization
+
+render():
+	This is the only required method
+	Read Props & state and return JSX
+	Child Components will render here(child component life cycle starts here)
+
+getSnapshotBeforeUpdate(prevPros,prevState):
+	Called right before the changes from virtual DOM are to be reflected in the DOM
+	capture information before changing
+
+componentDidUpdate(prevProps,prevState,snapshot):
+	called after the render is finished in the re-render cycles
+
+Fragments:
+<>
+</>
+
+useState:
+const[count,setCount]=useState(0)
+setCount(1)
+
+Pure Components
+Memo Components
+Refs
+Portals
+Error Handling
+API Calls using Fetch,XMLHttpRequest
+
+
+
+
+
+
+

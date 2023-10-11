@@ -1,0 +1,68 @@
+Pure Components:
+----------------
+MyComponent extends Component
+MyComponent extends PureComponent
+
+Component:
+   State: name:'john'
+
+name:'john'
+
+Pure components will re-render only when there is a change in props/state
+when ever parent component is re-rendered then child component also re-renders
+Pure components will be used for improving the performance
+
+
+Memo Components:
+----------------
+HOC: Higher Order Componet
+
+
+Refs in React:
+------------
+Refs are a way to interact with DOM
+this.nameref=React.createRef()
+
+Forward Refs:
+-------------
+React.forwardRef()
+
+Portals in React:
+----------------
+Its a way that we can render our DOM outside of parent hierarchy
+
+
+Error Handling:
+Product:
+
+Production Build:
+> npm run build
+> serve -s build  
+(if giving error try below commands)
+npm i -g serve
+npx serve -s build
+
+class Myexception extends Error
+{
+  constructor(message)
+  {
+    super(message)
+   }
+}
+
+Calls from Child to Parent:
+--------------------------
+
+
+Navigation:
+----------
+Routing:
+
+npm install react-router-dom 
+import {BrowserRouter,Routes,Route} from 'react-router-dom'
+
+npm install react-router-dom bootstrap
+
+
+
+

@@ -1,0 +1,51 @@
+npmjson server
+
+npm install -g json-server
+json-server --watch db.json --port 3200
+
+XMLHttpRequest:
+--------------
+const xhr=new XMLHttpRequest()
+xhr.open("GET","",true)
+xhr.setRequestHeader("Content-Type","application/jsom")
+
+readystate:
+0:UNSENT
+1:OPENED
+2:HEADERS_RECEIVED
+3:LOADING
+4:DONE
+
+AXIOS
+
+Context API in React:
+--------------------
+1.Create Context
+2.Provide Context Value
+3.Consume the context value
+
+
+HOC: Higher Order Components:
+---------------------------------
+
+
+AXIOS:
+-----
+NPM Library: 
+AXIOS Interceptor
+AXIOS: Browsers & Node JS
+JSON-Result
+
+npm i axios
+
+Token: JWT
+userid,pwd: x26612hgyg
+
+React Redux
+Redux Tool Kit
+Unit Testing with TestLibrary
+
+
+
+
+

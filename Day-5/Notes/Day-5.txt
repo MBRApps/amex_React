@@ -1,0 +1,47 @@
+Lazy Loading:
+------------
+React.lazy()
+Suspense
+
+Code Splitting
+Better Performance
+Optimizing the SEO
+Dynamic Import
+
+React Redux:
+--------------
+-Redux is an open-source javascript library for managing the state of application
+-Redux is available for Angular,React and Vue..
+-To use redux in UI applications we require the following dependencies
+	redux	react-redux 	redux-thunk	redux-devtools-extension
+
+-Store: It is used to store state values
+-Reducer: It is a part of Store, which will be used to manage the state values and manager the state
+-Action: Requests to reducer will be sent from action. Actions will be dispatched to reducer
+-Connect: This is a module from 'react-redux'. It will helps to access the store
+
+   npm i redux react-redux redux-thunk redux-devtools-extension
+
+async dispatch IncAction()
+{
+
+}
+
+Redux Toolkit:
+-----------------
+-It was introduced by team of 'redux' to resolve the issues in the redux
+	-Configuring a redux store is complicated
+	-required many packages to build large scale applications
+	-To reduce complexity for multiple reducers in app
+
+-Packages required
+	npm i react-redux @reduxjs/toolkit bootstrap
+
+JSON:
+	id,name,pic
+Add to cart
+remove cart
+
+
+
+

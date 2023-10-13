@@ -42,6 +42,47 @@ JSON:
 Add to cart
 remove cart
 
+Unit Testing:
+--------------
+Enzyme
+
+TestingLibrary
+
+*.test.js:
+
+npm test
+
+
+React Native:
+--------------
+Expo Go
+
+React Native is a platform where we can develop Native apps using JavaScript
+return
+
+IOS: Swift+Object C
+Android: Java+Kotlin
+
+CLI:
+expo CLI
+react native CLI
+
+npm i -g expo-cli
+expo init projectname
+
+Component: Functional/Class
+Life Cycle
+
+onBlur
+onChangeText
+onFocus
+onEndEditing
+onSubmitEditing
+
+style
+textAlign
+
+
 
 
 
